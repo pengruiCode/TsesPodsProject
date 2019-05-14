@@ -30,3 +30,6 @@
     配置完成之后 直接pod install 安装你本地的私有化库
     安装成功后pod里会有Development Pods文件夹
     
+ ##### tips:本地库关联的远程仓库如果建了README.md文件，第一次git push -u origin master会失败，是因为没有将README.md文件同步到本地，用git pull --rebase origin master命令合并代码，再推完成。
+    
+## 远程库创建
