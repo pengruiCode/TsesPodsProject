@@ -1,0 +1,20 @@
+{
+  "name": "LocalFiles",
+  "version": "0.0.2",
+  "summary": "LocalFiles",
+  "description": "LocalFiles本地库测试",
+  "homepage": "https://juejin.im/post/5b037b43f265da0b7c079852",
+  "license": "MIT",
+  "source": {
+    "git": "",
+    "tag": "0.0.2"
+  },
+  "authors": "作者",
+  "source_files": "*",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

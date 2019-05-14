@@ -1,0 +1,73 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - LocalFiles (0.0.2)
+  - MBProgressHUD (1.1.0)
+  - SQRBaseDefineWithFunction (0.2.3):
+    - SQRBaseDefineWithFunction/MBProgressHUD (= 0.2.3)
+    - SQRBaseDefineWithFunction/Toast (= 0.2.3)
+  - SQRBaseDefineWithFunction/MBProgressHUD (0.2.3):
+    - MBProgressHUD
+  - SQRBaseDefineWithFunction/Toast (0.2.3):
+    - Toast
+  - SQRNetworkRequset (0.2.0):
+    - SQRNetworkRequset/AFNetworking (= 0.2.0)
+    - SQRNetworkRequset/SQRBaseDefineWithFunction (= 0.2.0)
+    - SQRNetworkRequset/YYCache (= 0.2.0)
+  - SQRNetworkRequset/AFNetworking (0.2.0):
+    - AFNetworking
+  - SQRNetworkRequset/SQRBaseDefineWithFunction (0.2.0):
+    - SQRBaseDefineWithFunction
+  - SQRNetworkRequset/YYCache (0.2.0):
+    - YYCache
+  - Toast (4.0.0)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - LocalFiles (from `../LocalFiles`)
+  - SQRNetworkRequset (from `https://github.com/pengruiCode/SQRNetworkRequset.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - MBProgressHUD
+    - SQRBaseDefineWithFunction
+    - Toast
+    - YYCache
+
+EXTERNAL SOURCES:
+  LocalFiles:
+    :path: "../LocalFiles"
+  SQRNetworkRequset:
+    :git: https://github.com/pengruiCode/SQRNetworkRequset.git
+
+CHECKOUT OPTIONS:
+  SQRNetworkRequset:
+    :commit: 6de66e9a7ea07da23a03691da55fc48bc24a1bd8
+    :git: https://github.com/pengruiCode/SQRNetworkRequset.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  LocalFiles: 7ed8ea0e9d4819d119de5a6c01fd6033ef2e280e
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SQRBaseDefineWithFunction: 3d7a15d1e7822cb7013de155971567686c8337c1
+  SQRNetworkRequset: 635dd74c58864e0f0013c4d98cf51d45cd8f105d
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: b3a38aeef96eab1ee56a69d1d3aafcdabde74e31
+
+COCOAPODS: 1.5.3
