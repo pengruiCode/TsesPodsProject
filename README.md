@@ -114,5 +114,6 @@
     pod spec lint xxx.podspec   远程验证
     pod trunk push xxx.podspec  推送到远程
     --allow-warnings --use-libraries 加上这一句会在验证和发布时候忽略警告并读取静态库文件
+    搜索不到私有库时，在搜索命令后加 --simple
     
     
