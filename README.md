@@ -9,14 +9,14 @@
     
     字段描述如下
     s.name         = "LocalFiles"
-	  s.version      = "0.0.2"
-	  s.summary      = "LocalFiles"
-	  s.description  = "LocalFiles本地库测试"
-	  s.homepage     = "https://github.com/pengruiCode/TsesPodsProject.git"
-	  s.license      = "MIT"
-	  s.source       = { :git => "", :tag => "#{s.version}" }  #本地的git不用填
-	  s.author       = {'pengrui' => 'pengruiCode@163.com'}
-	  s.source_files = "*"
+    s.version      = "0.0.2"
+    s.summary      = "LocalFiles"
+    s.description  = "LocalFiles本地库测试"
+    s.homepage     = "https://github.com/pengruiCode/TsesPodsProject.git"
+    s.license      = "MIT"
+    s.source       = { :git => "", :tag => "#{s.version}" }  #本地的git不用填
+    s.author       = {'pengrui' => 'pengruiCode@163.com'}
+    s.source_files = "*"
     
  ### 现在进行主工程项目进行cocoapods管理   
     platform :ios, '8.0'
@@ -28,4 +28,5 @@
         pods
     end
     配置完成之后 直接pod install 安装你本地的私有化库
+    安装成功后pod里会有Development Pods文件夹
     
